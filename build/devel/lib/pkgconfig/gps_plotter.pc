@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/src/gps_plotter/build/devel
+
+Name: gps_plotter
+Description: Description of gps_plotter
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

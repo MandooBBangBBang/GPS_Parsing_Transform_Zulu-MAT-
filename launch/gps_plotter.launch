@@ -1,0 +1,7 @@
+<!-- gps_parser.launch -->
+<launch>
+  <!-- 노드 실행 -->
+  <node name="gps_parser" pkg="gps_parser" type="gps_parser.py" output="screen">
+  </node>
+  <node name="gps_subscriber" pkg="gps_parser" type="gps_subscriber.py" output="screen"> </node>
+</launch>
